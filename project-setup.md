@@ -1,0 +1,20 @@
+# Project setup
+- Run `go env -w GOPATH=/path/to/gopath`
+    - to set the GOPATH location
+
+- Run `go env -w GOBIN=/path/to/my/bin`
+    - to set the binary path
+
+- Run `go mod init github.com/bijeshos/go.examples`
+    - to initialize a module
+
+- Run `go build`
+- Run `go build github.com/bijeshos/go.examples/hello`
+    - to compile packages and dependencies
+
+- Run `go install`
+- Run `go install github.com/bijeshos/go.examples/hello`
+    - to install project's binaries in workspace's bin directory
+
+- Run `go list -m all`
+    - view final versions that will be used in a build for all direct and indirect dependencies
