@@ -17,4 +17,7 @@
     - to install project's binaries in workspace's bin directory
 
 - Run `go list -m all`
-    - view final versions that will be used in a build for all direct and indirect dependencies
+    - to view final versions that will be used in a build for all direct and indirect dependencies
+
+- Run `go get golang.org/x/tools/cmd/godoc`
+    - to get go doc
