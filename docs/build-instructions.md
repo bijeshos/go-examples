@@ -10,3 +10,6 @@
 
 - Run `./go.examples`
     - to run the binary
+
+- Run `go run main.go`
+    - to run main program    
