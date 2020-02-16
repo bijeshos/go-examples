@@ -20,3 +20,14 @@ func MethodExample() {
 	v := Vertex{3, 4}
 	fmt.Println(v.Abs())
 }
+
+//Abs fuction example
+func Abs(v Vertex) float64 {
+	return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+
+//FunctionExample function example
+func FunctionExample() {
+	v := Vertex{3, 4}
+	fmt.Println(Abs(v))
+}
