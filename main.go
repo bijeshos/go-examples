@@ -21,4 +21,5 @@ func main() {
 	flowcontrol.ForLoop()
 	flowcontrol.Sqrt(8.0)
 	flowcontrol.Pow(2, 2, 1)
+	flowcontrol.Switch()
 }
