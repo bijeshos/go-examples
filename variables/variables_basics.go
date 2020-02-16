@@ -8,6 +8,11 @@ import (
 func PrintDefaultVariableValues() {
 	var a bool
 	var i int
+	var f float32
+	var c complex64
 
-	fmt.Println("boolean:", a, ", int:", i)
+	const constant = "PI"
+
+	fmt.Println("boolean:", a, ", int:", i, ", float: ", f, ", complex: ", c)
+	fmt.Println("constant:", constant)
 }
