@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/bijeshos/go.examples/basics"
+	"github.com/bijeshos/go.examples/flowcontrol"
 	"github.com/bijeshos/go.examples/variables"
 )
 
@@ -17,4 +18,7 @@ func main() {
 	fmt.Println("Input: 50,60 | Output: ", a, b)
 
 	variables.PrintDefaultVariableValues()
+	flowcontrol.ForLoop()
+	flowcontrol.Sqrt(8.0)
+	flowcontrol.Pow(2, 2, 1)
 }
