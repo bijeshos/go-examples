@@ -5,6 +5,8 @@ import (
 
 	"github.com/bijeshos/go.examples/basics"
 	"github.com/bijeshos/go.examples/flowcontrol"
+	"github.com/bijeshos/go.examples/pointers"
+	"github.com/bijeshos/go.examples/structs"
 	"github.com/bijeshos/go.examples/variables"
 )
 
@@ -24,6 +26,6 @@ func main() {
 	flowcontrol.Switch()
 	flowcontrol.SwithWithNoCondition()
 
-	basics.PointerExample()
-	basics.StructExample()
+	pointers.PointerExample()
+	structs.StructExample()
 }
