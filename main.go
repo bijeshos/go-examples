@@ -22,4 +22,8 @@ func main() {
 	flowcontrol.Sqrt(8.0)
 	flowcontrol.Pow(2, 2, 1)
 	flowcontrol.Switch()
+	flowcontrol.SwithWithNoCondition()
+
+	basics.PointerExample()
+	basics.StructExample()
 }
