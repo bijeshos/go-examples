@@ -31,3 +31,16 @@ func FunctionExample() {
 	v := Vertex{3, 4}
 	fmt.Println(Abs(v))
 }
+
+//Scale method pointer example
+func (v *Vertex) Scale(f float64) {
+	v.X = v.X * f
+	v.Y = v.Y * f
+}
+
+//MethodPointerExample method pointer example
+func MethodPointerExample() {
+	v := Vertex{3, 4}
+	v.Scale(10)
+	fmt.Println(v.Abs())
+}
