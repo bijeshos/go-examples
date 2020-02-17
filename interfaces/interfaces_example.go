@@ -1,5 +1,7 @@
 package interfaces
 
+import "fmt"
+
 //I interface implementaion
 type I interface {
 	M()
