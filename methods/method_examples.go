@@ -44,3 +44,22 @@ func MethodPointerExample() {
 	v.Scale(10)
 	fmt.Println(v.Abs())
 }
+
+//ScaleFunc method indirection example
+func ScaleFunc(v *Vertex, f float64) {
+	v.X = v.X * f
+	v.Y = v.Y * f
+}
+
+//MethodIndirectionExample method indirection example
+func MethodIndirectionExample() {
+	v := Vertex{3, 4}
+	v.Scale(2)
+	ScaleFunc(&v, 10)
+
+	p := &Vertex{4, 3}
+	p.Scale(3)
+	ScaleFunc(p, 8)
+
+	fmt.Println(v, p)
+}
