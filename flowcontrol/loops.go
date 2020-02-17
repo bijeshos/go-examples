@@ -27,3 +27,5 @@ func ForLoop() {
 	}
 	fmt.Println(sum)
 }
+
+//reference: https://tour.golang.org/

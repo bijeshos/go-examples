@@ -79,3 +79,5 @@ func MethodIndirectionExample2() {
 	fmt.Println(p.Abs())
 	fmt.Println(AbsFunc(*p))
 }
+
+//reference: https://tour.golang.org/

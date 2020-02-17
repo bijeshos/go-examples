@@ -66,3 +66,5 @@ func MapMutation() {
 	v, ok := m["Answer"]
 	fmt.Println("The value:", v, "Present?", ok)
 }
+
+//reference: https://tour.golang.org/

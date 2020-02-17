@@ -23,3 +23,5 @@ func Pow(x, n, lim float64) float64 {
 	// can't use v here, though
 	return lim
 }
+
+//reference: https://tour.golang.org/

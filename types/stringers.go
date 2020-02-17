@@ -16,3 +16,5 @@ func StringersExample() {
 	z := Person{"Zaphod Beeblebrox", 9001}
 	fmt.Println(a, z)
 }
+
+//reference: https://tour.golang.org/

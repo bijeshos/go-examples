@@ -38,3 +38,5 @@ func FunctionClosure() {
 		)
 	}
 }
+
+//reference: https://tour.golang.org/

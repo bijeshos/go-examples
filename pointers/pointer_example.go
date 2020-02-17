@@ -15,3 +15,5 @@ func PointerExample() {
 	*p = *p / 37   // divide j through the pointer
 	fmt.Println(j) // see the new value of j
 }
+
+//reference: https://tour.golang.org/

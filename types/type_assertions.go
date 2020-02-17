@@ -18,3 +18,5 @@ func TypeAssertionExample() {
 	f = i.(float64) // panic
 	fmt.Println(f)
 }
+
+//reference: https://tour.golang.org/

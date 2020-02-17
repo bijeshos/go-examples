@@ -20,3 +20,5 @@ func PrintCurrentTime() {
 func PrintRandomNumber() {
 	fmt.Println("A random number is 2: ", rand.Intn(10))
 }
+
+//reference: https://tour.golang.org/

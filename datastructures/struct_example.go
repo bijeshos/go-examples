@@ -12,3 +12,5 @@ type Vertex struct {
 func StructExample() {
 	fmt.Println(Vertex{1, 2})
 }
+
+//reference: https://tour.golang.org/

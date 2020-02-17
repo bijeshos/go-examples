@@ -32,3 +32,5 @@ func SwithWithNoCondition() {
 		fmt.Println("Good evening.")
 	}
 }
+
+//reference: https://tour.golang.org/

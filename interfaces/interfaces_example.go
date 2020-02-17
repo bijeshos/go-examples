@@ -22,3 +22,5 @@ func InterfaceExample() {
 	var i I = T{"hello"}
 	i.M()
 }
+
+//reference: https://tour.golang.org/

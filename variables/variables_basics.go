@@ -16,3 +16,5 @@ func PrintDefaultVariableValues() {
 	fmt.Println("boolean:", a, ", int:", i, ", float: ", f, ", complex: ", c)
 	fmt.Println("constant:", constant)
 }
+
+//reference: https://tour.golang.org/

@@ -180,3 +180,5 @@ func RangeExample2() {
 		fmt.Printf("%d\n", value)
 	}
 }
+
+//reference: https://tour.golang.org/

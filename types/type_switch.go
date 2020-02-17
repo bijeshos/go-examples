@@ -18,3 +18,5 @@ func TypeSwitchExample() {
 	do("hello")
 	do(true)
 }
+
+//reference: https://tour.golang.org/
