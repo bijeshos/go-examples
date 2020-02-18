@@ -1,27 +1,37 @@
-package basics
+package main
 
 import (
+	"fmt"
 	"math"
 	"math/rand"
 )
 
-//GetRandomNumber returns a random number
-func GetRandomNumber() int {
+func main() {
+	fmt.Println("Random number is: ", getRandomNumber())
+	fmt.Println("Value of Pi is: ", getPi())
+
+	fmt.Println("Sum of 10 and 20 is: ", add(10, 20))
+	a, b := swap(50, 60)
+	fmt.Println("Input: 50,60 | Output: ", a, b)
+}
+
+//getRandomNumber returns a random number
+func getRandomNumber() int {
 	return rand.Int()
 }
 
-//GetPi returns value of PI
-func GetPi() float64 {
+//getPi returns value of PI
+func getPi() float64 {
 	return math.Pi
 }
 
-//Add adds two values and returns the sum
-func Add(x int, y int) int {
+//add adds two values and returns the sum
+func add(x int, y int) int {
 	return x + y
 }
 
-//Swap swaps two numbers
-func Swap(x, y int) (int, int) {
+//swap swaps two numbers
+func swap(x, y int) (int, int) {
 	return y, x
 }
 
