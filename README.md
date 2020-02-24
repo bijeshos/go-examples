@@ -8,3 +8,6 @@ This repository contains a collection of Go examples.
 # Build instructions
 - Refer `docs/build-instructions.md`
 
+# Reference
+- https://tour.golang.org/
+- https://golang.org/pkg
