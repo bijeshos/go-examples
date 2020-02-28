@@ -35,4 +35,7 @@ func swap(x, y int) (int, int) {
 	return y, x
 }
 
+/*
+A basic program to demonstrate math package usage
+*/
 //reference: https://tour.golang.org/
