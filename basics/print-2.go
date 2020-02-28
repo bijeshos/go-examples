@@ -7,7 +7,9 @@ import (
 )
 
 func main() {
-
+	printMessage("test")
+	printCurrentTime()
+	printRandomNumber()
 }
 
 //printMessage prints a message
@@ -25,4 +27,7 @@ func printRandomNumber() {
 	fmt.Println("A random number is 2: ", rand.Intn(10))
 }
 
+/*
+A basic program to demonstrate printing various values
+*/
 //reference: https://tour.golang.org/
