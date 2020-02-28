@@ -13,4 +13,7 @@ func main() {
 	fmt.Println(primes)
 }
 
+/*
+A simple program to demonstrate array declaration
+*/
 //reference: https://tour.golang.org/
