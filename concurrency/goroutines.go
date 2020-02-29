@@ -13,6 +13,7 @@ func say(s string) {
 }
 
 func main() {
+	//invokes a goroutine
 	go say("world")
 	say("hello")
 }
