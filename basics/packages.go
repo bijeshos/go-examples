@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	//Though the package imported is math/rand, we can use rand directly.
 	fmt.Println("My favorite number is", rand.Intn(10))
 }
 
