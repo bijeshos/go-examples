@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	//Here is how anotehr function is invoked
 	fmt.Println("Random number is: ", getRandomNumber())
 	fmt.Println("Value of Pi is: ", getPi())
 
@@ -16,6 +17,7 @@ func main() {
 }
 
 //getRandomNumber returns a random number
+//return type is mentioned at the end of the function signature
 func getRandomNumber() int {
 	return rand.Int()
 }
@@ -31,6 +33,7 @@ func add(x int, y int) int {
 }
 
 //swap swaps two numbers
+//here, two values are returned
 func swap(x, y int) (int, int) {
 	return y, x
 }
