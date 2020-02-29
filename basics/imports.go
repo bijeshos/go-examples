@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	//here, package math is imported and Sqrt() function is invoked by passing a value
 	fmt.Printf("Square root of 7 is: %g \n", math.Sqrt(7))
 }
 
