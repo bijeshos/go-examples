@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	sum := 1
+	//go has no while loop. while behavious can be achieved as follows
 	for sum < 1000 {
 		sum += sum
 	}
