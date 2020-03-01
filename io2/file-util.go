@@ -2,14 +2,28 @@ package main
 
 import (
 	"fmt"
+	"os"
+	"path/filepath"
 )
 
 //Read to read from dir
-func Read() {
-	fmt.Println("inside fileutil:read 2")
+func Read(srcDir string) {
+	fmt.Println("reading files from: ", srcDir)
 
+	var files []string
+
+	err := filepath.Walk(srcDir, func(path string, info os.FileInfo, err error) error {
+		files = append(files, path)
+		return nil
+	})
+	if err != nil {
+		panic(err)
+	}
+	for _, file := range files {
+		fmt.Println(file)
+	}
 }
 
 func main() {
-	Read()
+	Read("/home/bos/1-bos/tmp/go-test")
 }
