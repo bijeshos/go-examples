@@ -13,6 +13,9 @@ func Read(srcDir string) {
 	var files []string
 
 	err := filepath.Walk(srcDir, func(path string, info os.FileInfo, err error) error {
+		fmt.Println("----")
+		fmt.Println("paht", path)
+		fmt.Println("fileinfo", info)
 		files = append(files, path)
 		return nil
 	})
