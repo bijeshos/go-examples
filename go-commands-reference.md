@@ -19,3 +19,16 @@
 - `go test    `    # test packages
 - `go tool    `    # run specified go tool
 - `go vet     `    # report likely mistakes in packages
+
+
+## Go Commands : test
+- `go test`        # to execute the test files in the current directory 
+- `go test -cover` # to execute tests with coverage details displayed
+
+- `go test -bench=.` #to perform benchmarking
+
+- `go test -cover -coverprofile=c.out`  # to generate test coverage profile as a file
+- `go tool cover -html=c.out -o coverage.html` # to generate html file from coverage profile file 
+
+
+ 
