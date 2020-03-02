@@ -16,3 +16,7 @@ func TestSum(t *testing.T) {
 // open terminal, cd to this directory and execute the following
 // go test
 // go test -cover # to know the coverage as well
+
+// to visualize coverage
+//go test -cover -coverprofile=c.out
+//go tool cover -html=c.out -o coverage.html
