@@ -15,3 +15,4 @@ func TestSum(t *testing.T) {
 // how to execute the test:
 // open terminal, cd to this directory and execute the following
 // go test
+// go test -cover # to know the coverage as well
