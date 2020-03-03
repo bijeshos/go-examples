@@ -8,15 +8,23 @@ import (
 func main() {
 	//Dir returns the last directory in the path, without the last slashes
 
-	fmt.Println(filepath.Dir("/foo/bar/baz.js"))
-	fmt.Println(filepath.Dir("/foo/bar/baz"))
-	fmt.Println(filepath.Dir("/foo/bar/baz/"))
-	fmt.Println(filepath.Dir("/dirty//path///"))
-	fmt.Println(filepath.Dir("dev.txt"))
-	fmt.Println(filepath.Dir("../todo.txt"))
-	fmt.Println(filepath.Dir(".."))
-	fmt.Println(filepath.Dir("."))
-	fmt.Println(filepath.Dir("/"))
-	fmt.Println(filepath.Dir(""))
+	paths := []string{
+		"/foo/bar/baz.js",
+		"/foo/bar/baz",
+		"/foo/bar/baz/",
+		"/dirty//path///",
+		"dev.txt",
+		"../todo.txt",
+		"..",
+		".",
+		"/",
+		"",
+	}
+	for _, path := range paths {
+		dir := filepath.Dir(path)
+		fmt.Printf("input: %q | dir: %q\n", path, dir)
+	}
 
 }
+
+//reference: https://golang.org/pkg
