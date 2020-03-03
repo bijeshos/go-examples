@@ -44,3 +44,5 @@ func Read(srcDir string) {
 func main() {
 	Read("/home/bos/1-bos/tmp/go-test")
 }
+
+//reference: https://golang.org/pkg
