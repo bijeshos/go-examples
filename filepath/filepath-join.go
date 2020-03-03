@@ -7,8 +7,17 @@ import (
 
 func main() {
 	//Join joins any number of path elements to a single path
-	fmt.Println(filepath.Join("a", "b", "c"))
-	fmt.Println(filepath.Join("a", "b/c"))
-	fmt.Println(filepath.Join("a/b", "c"))
-	fmt.Println(filepath.Join("a/b", "/c"))
+
+	elements := [][]string{
+		{"a", "b", "c"},
+		{"a", "b/c", ""},
+		{"a/b", "c", ""},
+		{"a/b", "/c", ""},
+	}
+	for _, row := range elements {
+		joinedpath := filepath.Join(row[0], row[1], row[2])
+		fmt.Printf("input: %q | joined-path: %q\n", row, joinedpath)
+	}
 }
+
+//reference: https://golang.org/pkg
