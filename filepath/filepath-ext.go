@@ -13,3 +13,5 @@ func main() {
 	fmt.Printf("One dot: %q\n", filepath.Ext("index.js"))
 	fmt.Printf("Two dots: %q\n", filepath.Ext("main.test.js"))
 }
+
+//reference: https://golang.org/pkg
