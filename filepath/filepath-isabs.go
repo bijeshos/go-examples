@@ -8,11 +8,17 @@ import (
 func main() {
 
 	//IsAbs checks if the path is absolute
-	fmt.Println(filepath.IsAbs("/home/gopher"))
-	fmt.Println(filepath.IsAbs(".bashrc"))
-	fmt.Println(filepath.IsAbs(".."))
-	fmt.Println(filepath.IsAbs("."))
-	fmt.Println(filepath.IsAbs("/"))
-	fmt.Println(filepath.IsAbs(""))
+	paths := []string{
+		"/home/gopher",
+		".bashrc",
+		"..",
+		".",
+		"/",
+		"",
+	}
+	for _, path := range paths {
+		isabs := filepath.IsAbs(path)
+		fmt.Printf("input: %q | isabs: %t\n", path, isabs)
+	}
 
 }
