@@ -15,8 +15,9 @@ func main() {
 	for _, p := range paths {
 		//split splits path immediately following last separator, separating path to directory and file name
 		//if no separator in the path, returns empty dir and file name
-		//
 		dir, file := filepath.Split(p)
-		fmt.Printf("input: %q\n\tdir: %q\n\tfile: %q\n", p, dir, file)
+		fmt.Printf("input: %q | dir: %q | file: %q\n", p, dir, file)
 	}
 }
+
+//reference: https://golang.org/pkg
