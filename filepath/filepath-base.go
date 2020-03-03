@@ -7,21 +7,24 @@ import (
 
 func main() {
 
-	srcDir := "~/tmp"
-
 	//Base returns the last element of the path
 
-	fmt.Println(filepath.Base(srcDir))
-
-	fmt.Println(filepath.Base("/foo/bar/baz.js"))
-	fmt.Println(filepath.Base("/foo/bar/baz"))
-	fmt.Println(filepath.Base("/foo/bar/baz/"))
-	fmt.Println(filepath.Base("dev.txt"))
-	fmt.Println(filepath.Base("../todo.txt"))
-	fmt.Println(filepath.Base(".."))
-	fmt.Println(filepath.Base("."))
-	fmt.Println(filepath.Base("/"))
-	fmt.Println(filepath.Base(""))
+	paths := []string{
+		"~/tmp",
+		"/foo/bar/baz.js",
+		"/foo/bar/baz",
+		"/foo/bar/baz/",
+		"dev.txt",
+		"../todo.txt",
+		"..",
+		".",
+		"/",
+		"",
+	}
+	for _, path := range paths {
+		base := filepath.Base(path)
+		fmt.Printf("input: %q | base: %q\n", path, base)
+	}
 
 }
 
