@@ -13,3 +13,5 @@ func main() {
 	}
 	fmt.Printf("The date is %s\n", out)
 }
+
+//reference: https://golang.org/pkg
