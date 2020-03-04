@@ -13,3 +13,5 @@ func main() {
 	//os.Exit(1) //non-zero is considered as error
 
 }
+
+//reference: https://golang.org/pkg
