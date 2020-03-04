@@ -21,3 +21,5 @@ func main() {
 	printEnv("GOBIN")
 
 }
+
+//reference: https://golang.org/pkg
