@@ -15,3 +15,5 @@ func main() {
 	err = cmd.Wait()
 	log.Printf("Command finished with error: %v", err)
 }
+
+//reference: https://golang.org/pkg
