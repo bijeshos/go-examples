@@ -12,3 +12,5 @@ func main() {
 	fmt.Printf("GOROOT: %s , \nGOPATH: %s \n", os.Getenv("GOROOT"), os.Getenv("GOPATH"))
 
 }
+
+//reference: https://golang.org/pkg
