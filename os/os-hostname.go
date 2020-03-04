@@ -16,3 +16,5 @@ func main() {
 	fmt.Printf("hostname: %s \n", hostname)
 
 }
+
+//reference: https://golang.org/pkg
