@@ -21,3 +21,12 @@ func TestSum(t *testing.T) {
 // to visualize coverage
 //go test -cover -coverprofile=c.out
 //go tool cover -html=c.out -o coverage.html
+
+
+func BenchmarkSum(b *testing.B) {
+	total := Sum(2, 4)
+	fmt.Println("total:", total)
+}
+
+//to perform benchmarking
+//go test -bench=.
