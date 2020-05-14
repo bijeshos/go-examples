@@ -14,5 +14,8 @@ func print(startValue int, increment int, count int) {
 }
 
 func main() {
-	print(1, 1, 10)
+	go print(1, 1, 10)
+	var input string
+	fmt.Scanln(&input)
+	//go print(50, 2, 10)
 }
