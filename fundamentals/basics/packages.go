@@ -1,3 +1,9 @@
+/*
+A basic program to demonstrate package main and import packages
+
+Reference: https://tour.golang.org
+*/
+
 package main
 
 import (
@@ -7,10 +13,5 @@ import (
 
 func main() {
 	//Though the package imported is math/rand, we can use rand directly.
-	fmt.Println("My favorite number is", rand.Intn(10))
+	fmt.Println("Here is a random number: ", rand.Intn(100))
 }
-
-/*
-A basic program to demonstrate package main and import packages
-*/
-//reference: https://tour.golang.org/
