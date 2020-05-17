@@ -1,3 +1,9 @@
+/*
+A basic program to demonstrate usage of exported values
+
+Reference: https://tour.golang.org
+*/
+
 package main
 
 import (
@@ -6,8 +12,6 @@ import (
 )
 
 func main() {
-	//here, Pi is an exported variable in math
+	//Pi is an exported value in math package
 	fmt.Println("Value of Pi: ", math.Pi)
 }
-
-//reference: https://tour.golang.org/
