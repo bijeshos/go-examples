@@ -1,14 +1,14 @@
+/*
+This is a simple hello world program
+
+Reference: https://tour.golang.org
+*/
+
 package main
 
 import "fmt"
 
 func main() {
 	//Println is part of fmt package
-	fmt.Println("Hello, 世界")
+	fmt.Println("Hello there!")
 }
-
-/*
-A basic program to print hello
-*/
-
-//reference: https://tour.golang.org/
