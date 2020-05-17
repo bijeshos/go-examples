@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	//Here is how anotehr function is invoked
+	//Here is how another function is invoked
 	fmt.Println("Random number is: ", getRandomNumber())
 	fmt.Println("Value of Pi is: ", getPi())
 
